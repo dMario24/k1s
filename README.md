@@ -38,3 +38,10 @@ $ docker compose stop
 $ docker compose start
 $ docker compose down
 ```
+
+# COMPOSE scale IN/OUT
+```
+$ docker compose up -d \
+> --scale blog=5 \
+> --build
+```
